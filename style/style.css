@@ -59,76 +59,9 @@ header .wolf h1 {
   color: #000000;
 }
 
-/* NAV */
-nav ul {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  list-style: none;
-}
-
-.navbar-brand {
-  color: #000;
-  margin: 16px 10px 16px 10px;
-}
-
-.nav-wolf .nav-link,
-.nav-wolf {
-  color: #000000 !important;
-  font-weight: 700;
-  border-radius: 8px;
-}
-
-.nav-wolf .nav-link:hover,
-.nav-wolf {
-  color: #ffffff !important;
-  background-color: #000000;
-  border-radius: 8px;
-}
-
-.nav-wolf {
-  background-image: linear-gradient(#89d957, #c0e265);
-  width: 100%;
-  border-radius: 0 !important;
-}
-
-/* main */
-main {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 20px;
-}
-
-/* MAIN GRID: para index (about + hero) y para otras páginas */
-.main-grid {
-  padding: 28px;
-  width: min(1180px, 94%);
-  margin: 18px auto;
-}
-
-/* Grid principal: 1 columna en móvil, 2 en pantallas grandes */
-.main-grid {
-  width: 100%;
-  max-width: 100% !important;
-  background-color: #000;
-  color: #fff;
-  margin: 0;
-  padding: 40px 20px;
-  display: grid;
-  gap: 20px;
-}
-
-/* Tarjeta about */
-.about {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(8, 20, 40, 0.04);
-}
-
 /* Hero a la derecha en desktop: llamada a la acción */
 .hero {
-  background: linear-gradient(180deg, #3e9e03, #9bd302);
+  background-color: #dddddd;
   color: #fff;
   padding: 28px;
   border-radius: 12px;
@@ -141,8 +74,8 @@ main {
 
 /* Botón */
 button:hover {
-  background: #89d957;
-  color: white;
+  background-image: linear-gradient(#c0e265, #89d957);
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 16px;
   border-radius: 10px;
@@ -153,23 +86,12 @@ button:hover {
 
 .ho-ver {
   background-image: linear-gradient(#89d957, #c0e265);
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 16px;
   border-radius: 10px;
   font-weight: 700;
-  cursor: pointer;
   box-shadow: 0 6px 18px rgba(255, 77, 79, 0.18);
-}
-
-/* Footer */
-footer {
-  background: #000000;
-  padding: 18px;
-  border-top: 1px solid #ffffff;
-  text-align: center;
-  font-size: 14px;
-  color: #555;
 }
 
 /* FORM styling (contacto.html) */
@@ -203,7 +125,6 @@ textarea {
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 18px;
 }
-
 .opiniones-grid article {
   background: linear-gradient(180deg, #89d957, #c0e265);
   padding: 12px 14px;
@@ -232,6 +153,52 @@ ul {
   list-style: none;
 }
 
+/* main */
+main {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+}
+
+/* Grid principal: 1 columna en móvil, 2 en pantallas grandes */
+.main-grid {
+  width: 100%;
+  max-width: 100% !important;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 40px 20px;
+  display: grid;
+  align-items: center;
+  align-content: start;
+}
+
+/* NAV */
+.navbar-brand {
+  color: #000;
+  margin: 16px 10px 16px 10px;
+}
+
+.nav-wolf .nav-link,
+.nav-wolf {
+  color: #000000 !important;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.nav-wolf .nav-link:hover,
+.nav-wolf {
+  color: #ffffff !important;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+.nav-wolf {
+  background-image: linear-gradient(#89d957, #c0e265);
+  width: 100%;
+  border-radius: 0 !important;
+}
+
 /* IMÁGENES genericas */
 img {
   max-width: 100%;
@@ -250,6 +217,16 @@ img {
   height: auto;
   display: block;
   margin: 20px auto;
+}
+
+/* Footer */
+footer {
+  background: #000000;
+  padding: 18px;
+  border-top: 1px solid #ffffff;
+  text-align: center;
+  font-size: 14px;
+  color: #555;
 }
 
 /*# sourceMappingURL=style.css.map */

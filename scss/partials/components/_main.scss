@@ -1,0 +1,20 @@
+/* main */
+
+main {
+   background-color: #000000;
+   color: #ffffff;
+   padding: 20px;
+}
+
+/* Grid principal: 1 columna en móvil, 2 en pantallas grandes */
+.main-grid{
+   width: 100%;
+   max-width: 100% !important;
+   background-color: #000;
+   color: #fff;
+   margin: 0;
+   padding: 40px 20px;
+   display: grid;
+   align-items: center;
+   align-content: start;
+}
