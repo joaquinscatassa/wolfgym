@@ -59,19 +59,6 @@ header .wolf h1 {
   color: #000000;
 }
 
-/* Hero a la derecha en desktop: llamada a la acción */
-.hero {
-  background-color: #dddddd;
-  color: #fff;
-  padding: 28px;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  align-items: start;
-  justify-content: center;
-}
-
 /* Botón */
 button:hover {
   background-image: linear-gradient(#c0e265, #89d957);
@@ -116,20 +103,6 @@ textarea {
   border-radius: 8px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   font-size: 14px;
-}
-
-/* OPINIONES: grid de cards responsivas */
-.opiniones-grid {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-top: 18px;
-}
-.opiniones-grid article {
-  background: linear-gradient(180deg, #89d957, #c0e265);
-  padding: 12px 14px;
-  border-radius: 10px;
-  box-shadow: 0 6px 18px rgba(10, 10, 20, 0.04);
 }
 
 /* Titulos y párrafos */
@@ -227,6 +200,44 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #555;
+}
+
+/* Hero a la derecha en desktop: llamada a la acción */
+.hero {
+  background-color: #c8c8c8;
+  color: #fff;
+  padding: 28px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: start;
+  justify-content: center;
+}
+
+/* OPINIONES: grid de cards responsivas */
+.opiniones-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 18px;
+}
+.opiniones-grid article {
+  background: linear-gradient(180deg, #89d957, #c0e265);
+  padding: 12px 14px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(10, 10, 20, 0.04);
+}
+
+/* Bloque informativo index */
+.info-index {
+  background-color: #c8c8c8; /* gris oscuro */
+  border: 2px solid #000000;
+  border-radius: 14px;
+  padding: 24px;
+  margin: 40px auto;
+  max-width: 900px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

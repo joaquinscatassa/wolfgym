@@ -14,18 +14,6 @@ header{
 }
 }
 }
-/* Hero a la derecha en desktop: llamada a la acción */
-.hero{
-   background-color: #dddddd;
-   color: #fff;
-   padding: 28px;
-   border-radius: 12px;
-   display: flex;
-   flex-direction: column;
-   gap: 14px;
-   align-items: start;
-   justify-content: center;
-}
 
 /* Botón */
 button:hover{
@@ -69,20 +57,6 @@ textarea{
    border-radius: 8px;
    border: 1px solid rgba(0,0,0,0.12);
    font-size: 14px;
-}
-
-/* OPINIONES: grid de cards responsivas */
-.opiniones-grid{
-   display: grid;
-   gap: 16px;
-   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-   margin-top: 18px;
-   article{
-   background: linear-gradient(180deg, #89d957, #c0e265);
-   padding: 12px 14px;
-   border-radius: 10px;
-   box-shadow: 0 6px 18px rgba(10,10,20,0.04);
-}
 }
 
 /* Titulos y párrafos */
